@@ -36,3 +36,17 @@ img {
     width: 200px;
     margin: 0 auto;
 }
+
+.dark-mode { 
+    background-color: black;
+    color: white;
+}
+
+.dark-mode h2 {
+    color: lightblue;
+    border-bottom: 1px solid lightblue;
+}
+
+.dark-mode p {
+    color: white;
+}

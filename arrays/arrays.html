@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    function convert(grade) {
+        switch (grade){
+            case 'A':
+                points = 4;
+                break;
+            case 'B':
+                points = 3;
+                break;
+            case 'C':
+                points = 2;
+                break;
+            case 'D':
+                points = 1;
+                break;
+            case 'F':
+                points = 0;
+                break;
+            default:
+                alert('not a valid grade');
+        }
+        return points;
+    }
+          
+</body>
+</html>

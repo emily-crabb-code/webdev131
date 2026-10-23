@@ -1,0 +1,79 @@
+header{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    border-bottom: 2px solid orange;
+}
+
+header nav {
+    justify-self: end;
+    padding: 20px;
+    color: rgb(159, 50, 87);
+}
+
+a {
+    padding: 20px;
+    color:rgb(159, 50, 87);
+}
+
+header h1 {
+    justify-self: center;
+    padding: 20px;
+    border-bottom: 2px solid orange;
+}
+
+h2 {
+    justify-self: start;
+    font-size: 35px;
+}
+
+#book-stuff p {
+    text-align: left;
+}
+
+img {
+    justify-self: center;
+}
+
+p {
+    font-size: 30px;
+}
+
+#info {
+    border-top: 2px solid orange;
+    padding-right: 30px;
+    text-align: right;
+}
+
+#info p {
+    margin: 5px 0;
+}
+
+#book-stuff {
+    display: grid;
+    padding-left: 30px;
+}
+
+.book {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 40px;
+}
+
+footer {
+    border-top: 2px solid orange;
+    text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+
+    .book {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    #info {
+        border-top: none;
+        border-right: 2px solid orange;
+    }
+}
